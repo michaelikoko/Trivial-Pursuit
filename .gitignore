@@ -1,0 +1,45 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.elf
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+main
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Build directories
+build/
+cmake-build-*/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
