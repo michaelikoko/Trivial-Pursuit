@@ -14,6 +14,7 @@ class FileReader
 {
 public:
   FileReader(string fileName, string category);
+  FileReader();
   QuestionList questionsList;
   string category;
   void addQuestion(string question, string answer);
@@ -33,6 +34,13 @@ FileReader::FileReader(string fileName, string categoryName)
   category = categoryName;
   file = fileName;
   createQuestionList();
+}
+FileReader::FileReader()
+{
+  // Default constructor
+  category = "";
+  file = "";
+  //createQuestionList();
 }
 
 void FileReader::createQuestionList()

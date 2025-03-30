@@ -20,7 +20,8 @@
 *.exe
 *.out
 *.app
-main
+console
+gui
 
 # Debug files
 *.dSYM/
